@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Search Customers in Admin Tab" duration-ms="87695" started-at="2017-10-10T18:53:10Z" finished-at="2017-10-10T18:54:38Z">
+    <groups>
+    </groups>
+    <test name="Add Customer With Different Account Types Using Different User Roles Using Chrome" duration-ms="87695" started-at="2017-10-10T18:53:10Z" finished-at="2017-10-10T18:54:38Z">
+      <class name="tests.myaccount.SearchCustomerTests">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:tests.myaccount.SearchCustomerTests@4e4aea35]" name="initializeBrowser" is-config="true" duration-ms="6289" started-at="2017-10-10T13:53:10Z" finished-at="2017-10-10T13:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://myaccountdigitaltst.directenergy.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NAB_Digital.xlsx]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyAccount]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[public void tests.myaccount.SearchCustomerTests.searchCustomersUsingDemandResponseCustomer()]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@491666ad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="searchCustomersUsingDemandResponseCustomer()[pri:0, instance:tests.myaccount.SearchCustomerTests@4e4aea35]" name="searchCustomersUsingDemandResponseCustomer" duration-ms="42219" started-at="2017-10-10T13:53:17Z" description="Admin User - Search Customers using Demand Response Customer" finished-at="2017-10-10T13:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomersUsingDemandResponseCustomer -->
+        <test-method status="PASS" signature="cleanUp(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.myaccount.SearchCustomerTests@4e4aea35]" name="cleanUp" is-config="true" duration-ms="1100" started-at="2017-10-10T13:53:59Z" finished-at="2017-10-10T13:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchCustomersUsingDemandResponseCustomer status=SUCCESS method=SearchCustomerTests.searchCustomersUsingDemandResponseCustomer()[pri:0, instance:tests.myaccount.SearchCustomerTests@4e4aea35] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.myaccount.SearchCustomerTests.searchCustomersUsingDemandResponseCustomer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:tests.myaccount.SearchCustomerTests@4e4aea35]" name="initializeBrowser" is-config="true" duration-ms="5449" started-at="2017-10-10T13:54:00Z" finished-at="2017-10-10T13:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://myaccountdigitaltst.directenergy.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NAB_Digital.xlsx]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyAccount]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[public void tests.myaccount.SearchCustomerTests.searchCustomersUsingDemandResponseVendorId()]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@491666ad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="searchCustomersUsingDemandResponseVendorId()[pri:0, instance:tests.myaccount.SearchCustomerTests@4e4aea35]" name="searchCustomersUsingDemandResponseVendorId" duration-ms="31302" started-at="2017-10-10T13:54:06Z" description="Admin User - Search Customers using Demand Response Vendor Id" finished-at="2017-10-10T13:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomersUsingDemandResponseVendorId -->
+        <test-method status="PASS" signature="cleanUp(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.myaccount.SearchCustomerTests@4e4aea35]" name="cleanUp" is-config="true" duration-ms="736" started-at="2017-10-10T13:54:37Z" finished-at="2017-10-10T13:54:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchCustomersUsingDemandResponseVendorId status=SUCCESS method=SearchCustomerTests.searchCustomersUsingDemandResponseVendorId()[pri:0, instance:tests.myaccount.SearchCustomerTests@4e4aea35] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.myaccount.SearchCustomerTests.searchCustomersUsingDemandResponseVendorId()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="FAIL" signature="testsTearDown()[pri:0, instance:tests.myaccount.SearchCustomerTests@4e4aea35]" name="testsTearDown" is-config="true" duration-ms="0" started-at="2017-10-10T13:54:38Z" finished-at="2017-10-10T13:54:38Z">
+          <exception class="java.lang.UnsatisfiedLinkError">
+            <message>
+              <![CDATA[Can't load library: C:\Users\VNatarajan\eclipse-workspace\digital-automation\jacob-1.18-x86.dll]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsatisfiedLinkError: Can't load library: C:\Users\VNatarajan\eclipse-workspace\digital-automation\jacob-1.18-x86.dll
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.jacob.com.LibraryLoader.loadJacobLibrary(LibraryLoader.java:151)
+	at com.jacob.com.JacobObject.<clinit>(JacobObject.java:110)
+	at com.jacob.com.LibraryLoader.loadJacobLibrary(LibraryLoader.java:149)
+	at support.ALMConnection.getInstance(ALMConnection.java:42)
+	at tests.TestSupporter.testsTearDown(TestSupporter.java:241)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.UnsatisfiedLinkError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsTearDown -->
+      </class> <!-- tests.myaccount.SearchCustomerTests -->
+    </test> <!-- Add Customer With Different Account Types Using Different User Roles Using Chrome -->
+  </suite> <!-- Search Customers in Admin Tab -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Search Customers in Admin Tab" parallel="tests" thread-count="3" configfailurepolicy="continue">
+	<parameter name="URL" value="https://myaccountdigitaltst.directenergy.com"></parameter>
+	<parameter name="Datasource" value="NAB_Digital.xlsx"></parameter>
+	<parameter name="SheetName" value="MyAccount"></parameter>
+
+	<listeners>
+		<listener class-name="support.TestNGExtentReport" />
+	</listeners>
+
+	 <test
+		name="Add Customer With Different Account Types Using Different User Roles Using Chrome">
+		<parameter name="Browser" value="Google Chrome"></parameter>
+		<classes>
+			<class name="tests.myaccount.SearchCustomerTests" />	
+		</classes>
+	</test>
+	
+</suite>
+

@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 2, Time elapsed: 13.217 s <<< FAILURE! - in TestSuite
+initializeBrowser(tests.myaccount.SearchCustomerTests)  Time elapsed: 1.578 s  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+
+cleanUp(tests.myaccount.SearchCustomerTests)  Time elapsed: 0.374 s  <<< FAILURE!
+java.lang.NullPointerException
+
+initializeBrowser(tests.myaccount.SearchCustomerTests)  Time elapsed: 0.422 s  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+
+cleanUp(tests.myaccount.SearchCustomerTests)  Time elapsed: 0.28 s  <<< FAILURE!
+java.lang.NullPointerException
+
+testsTearDown(tests.myaccount.SearchCustomerTests)  Time elapsed: 5.323 s  <<< FAILURE!
+java.lang.UnsatisfiedLinkError: Expecting an absolute path of the library: C:\Users\VNatarajan\eclipse-workspace\digital-automation\jacob-1.18-x86.dll
+
